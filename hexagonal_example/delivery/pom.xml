@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+
+    <!-- Parent POM -->
+    <parent>
+        <groupId>tech.dimitar.hexagonal</groupId>
+    	<artifactId>example</artifactId>
+        <version>0.1</version>
+    </parent>
+
+
+    <!-- POM module info -->
+    <groupId>tech.dimitar.hexagonal.example</groupId>
+    <artifactId>delivery</artifactId>
+    <version>0.1</version>
+    <packaging>pom</packaging>
+    
+    <modelVersion>4.0.0</modelVersion>
+
+
+    <!-- Modules -->
+    <modules>
+    	<module>app</module>
+    </modules>
+
+</project>
+
