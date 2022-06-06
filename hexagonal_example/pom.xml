@@ -32,7 +32,7 @@
     <!-- Modules -->
     <modules>
     	<module>delivery</module>
-    <!--	<module>service</module> -->
+    	<module>service</module>
     </modules>
 
 
