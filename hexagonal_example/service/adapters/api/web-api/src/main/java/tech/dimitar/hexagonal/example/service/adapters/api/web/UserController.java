@@ -4,9 +4,9 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.validation.annotation.Validated;
+import org.springframework.web.bind.annotation.*;
+import tech.dimitar.hexagonal.example.service.core.data.UserDTO;
 import tech.dimitar.hexagonal.example.service.core.ports.api.UserServicePort;
 
 @Slf4j
@@ -18,8 +18,13 @@ public class UserController {
 
 
     @GetMapping
-    public ResponseEntity<?> testGet() {
-        return new ResponseEntity<Object>("Success!", HttpStatus.OK);
+    public ResponseEntity<String> testGet() {
+        return new ResponseEntity<String>("Success!", HttpStatus.OK);
+    }
+
+    @PostMapping
+    public ResponseEntity<UserDTO> createUser (@RequestBody @Validated final UserDTO userDTO) {
+        return new ResponseEntity<UserDTO>(userServicePort.createUser(userDTO), HttpStatus.CREATED);
     }
 
 }
