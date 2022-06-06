@@ -6,23 +6,17 @@
 
 	<!-- Parent POM -->
     <parent>
-        <groupId>tech.dimitar.hexagonal.example.service</groupId>
-    	<artifactId>adapters</artifactId>
+        <groupId>tech.dimitar.hexagonal.example.service.adapters</groupId>
+    	<artifactId>spi</artifactId>
         <version>0.1</version>
     </parent>
 
 
 	<!-- POM module info -->
     <modelVersion>4.0.0</modelVersion>
-    <groupId>tech.dimitar.hexagonal.example.service.adapters</groupId>
-    <artifactId>spi</artifactId>
-    <packaging>pom</packaging>
-
-
-
-    <!-- Modules -->
-    <modules>
-     	<module>firebase</module>
-    </modules>
+    <groupId>tech.dimitar.hexagonal.example.service.adapters.spi</groupId>
+    <artifactId>firebase</artifactId>
+   
+   
 
 </project>
