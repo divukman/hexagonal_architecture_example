@@ -16,7 +16,26 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>tech.dimitar.hexagonal.example.service.adapters.spi</groupId>
     <artifactId>firebase</artifactId>
-   
+
+
+    <!-- Dependencies -->
+    <dependencies>
+        <dependency>
+            <groupId>com.google.firebase</groupId>
+            <artifactId>firebase-admin</artifactId>
+            <version>8.2.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>tech.dimitar.hexagonal.example.service</groupId>
+            <artifactId>core</artifactId>
+            <version>0.1</version>
+        </dependency>
+    </dependencies>
    
 
 </project>
