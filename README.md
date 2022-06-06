@@ -1,6 +1,8 @@
 # Hexagonal Architecture With Spring Boot
 Hexagonal architecture example
 
+![Hexagonal Architecture](https://static.packt-cdn.com/products/9781839211966/graphics/B15547_02_04.jpg)
+
 WIP project that aims to have a basic structure of hexagonal infrastructure setup with spring boot example...
 
 - Ports: Interfaces in core (domain)
