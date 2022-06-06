@@ -32,6 +32,13 @@ export GOOGLE_APPLICATION_CREDENTIALS="/home/user/Downloads/service-account-file
 ```
 Or you can have a dummy adapter that stores data into h2 for example...
 
+Update the application-dev.properties file with following:
+```
+firebase.sa=/path/to/serviceaccount/key/firebaseSA.json
+firebase.db=https://your-db.firebasedatabase.app
+
+```
+
 # Run the project
 ```
   $ ./mvnw spring-boot: run (or mvn spring-boot:run)
