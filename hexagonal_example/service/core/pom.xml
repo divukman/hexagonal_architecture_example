@@ -5,8 +5,8 @@
 
 
     <parent>
-        <artifactId>service</artifactId>
         <groupId>tech.dimitar.hexagonal.example</groupId>
+        <artifactId>service</artifactId>
         <version>0.1</version>
     </parent>
 

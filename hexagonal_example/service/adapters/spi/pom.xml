@@ -6,24 +6,23 @@
 
 	<!-- Parent POM -->
     <parent>
-        <groupId>tech.dimitar.hexagonal.example</groupId>
-        <artifactId>service</artifactId>
+        <groupId>tech.dimitar.hexagonal.example.service</groupId>
+    	<artifactId>adapters</artifactId>
         <version>0.1</version>
     </parent>
 
 
 	<!-- POM module info -->
     <modelVersion>4.0.0</modelVersion>
-    <groupId>tech.dimitar.hexagonal.example.service</groupId>
-    <artifactId>adapters</artifactId>
+    <groupId>tech.dimitar.hexagonal.example.service.adapters</groupId>
+    <artifactId>spi</artifactId>
     <packaging>pom</packaging>
 
 
 
     <!-- Modules -->
     <modules>
-        <module>api</module>
-        <module>spi</module>
+      
     </modules>
 
 </project>
