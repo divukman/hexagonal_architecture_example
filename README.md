@@ -9,6 +9,17 @@ WIP project that aims to have a basic structure of hexagonal infrastructure setu
 - SPI (Service provider interface): that which is driven by core (database for example)
 
 
+# Example
+- Core defines interfaces (ports) for the input (API) and for the output (SPI)
+
+## Input adapters (API)
+- Web input adapter implements one of the ports and exposes a web api that drives the core 
+- Different input adapters can drive the logic, for example pubsub subscription etc...
+
+## Output adapters (SPI)
+- Firebase output adapter implements one of the ports and provides means for persisting the data (in firebase) 
+- Different output adapters can implement output port, for example Postgres adapter to store data into the database...
+
 
 # Config
 If you are using a firebase project:
