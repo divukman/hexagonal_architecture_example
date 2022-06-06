@@ -22,7 +22,7 @@
 
     <!-- Modules -->
     <modules>
-      
+      <module>web-api</module>
     </modules>
 
 </project>
