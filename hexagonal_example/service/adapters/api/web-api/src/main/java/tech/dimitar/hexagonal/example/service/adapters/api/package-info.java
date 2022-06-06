@@ -1,0 +1,1 @@
+package tech.dimitar.hexagonal.example.service.adapters.api;

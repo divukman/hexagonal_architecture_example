@@ -28,6 +28,12 @@
       		<groupId>org.projectlombok</groupId>
       		<artifactId>lombok</artifactId>
     	</dependency>
+
+		<dependency>
+			<groupId>tech.dimitar.hexagonal.example.service</groupId>
+			<artifactId>core</artifactId>
+			<version>0.1</version>
+		</dependency>
 	</dependencies>
 
 </project>

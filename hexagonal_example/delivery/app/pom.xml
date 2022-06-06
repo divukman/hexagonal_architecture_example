@@ -46,6 +46,20 @@
              <groupId>org.springframework.boot</groupId>
              <artifactId>spring-boot-starter-actuator</artifactId>
          </dependency>
+
+
+        <dependency>
+            <groupId>tech.dimitar.hexagonal.example.service</groupId>
+            <artifactId>core</artifactId>
+            <version>0.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>tech.dimitar.hexagonal.example.service.adapters.api</groupId>
+            <artifactId>web-api</artifactId>
+            <version>0.1</version>
+        </dependency>
+
       <!-- Test dependencies -->
       <dependency>
 			<groupId>org.springframework.boot</groupId>
