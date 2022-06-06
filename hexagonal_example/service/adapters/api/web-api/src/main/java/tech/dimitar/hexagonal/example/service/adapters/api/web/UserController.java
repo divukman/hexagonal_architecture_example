@@ -23,7 +23,7 @@ public class UserController {
     }
 
     @PostMapping
-    public ResponseEntity<UserDTO> createUser (@RequestBody @Validated final UserDTO userDTO) {
+    public ResponseEntity<UserDTO> createUser (@RequestBody @Validated final UserDTO userDTO) throws Exception {
         return new ResponseEntity<UserDTO>(userServicePort.createUser(userDTO), HttpStatus.CREATED);
     }
 

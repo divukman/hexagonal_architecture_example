@@ -10,7 +10,7 @@ public class UserServiceImpl implements UserServicePort {
     private final UserPersistencePort userPersistencePort;
 
     @Override
-    public UserDTO createUser(UserDTO userDTO) {
+    public UserDTO createUser(UserDTO userDTO) throws Exception {
         return userPersistencePort.createUser(userDTO);
     }
 }
