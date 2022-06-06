@@ -1,4 +1,4 @@
-# hexagonal_architecture_example
+# Hexagonal Architecture With Spring Boot
 Hexagonal architecture example
 
 WIP project that aims to have a basic structure of hexagonal infrastructure setup with spring boot example...
